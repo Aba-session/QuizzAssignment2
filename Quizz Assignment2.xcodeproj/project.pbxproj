@@ -13,6 +13,7 @@
 		84AC7AD725C85045006EA053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AC7AD525C85045006EA053 /* Main.storyboard */; };
 		84AC7AD925C8504B006EA053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AC7AD825C8504B006EA053 /* Assets.xcassets */; };
 		84AC7ADC25C8504B006EA053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AC7ADA25C8504B006EA053 /* LaunchScreen.storyboard */; };
+		84AC7AE625C86877006EA053 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AC7AE525C86877006EA053 /* QuestionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		84AC7AD825C8504B006EA053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84AC7ADB25C8504B006EA053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84AC7ADD25C8504B006EA053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AC7AE525C86877006EA053 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 				84AC7ACD25C85045006EA053 /* Products */,
 			);
 			sourceTree = "<group>";
+			wrapsLines = 0;
 		};
 		84AC7ACD25C85045006EA053 /* Products */ = {
 			isa = PBXGroup;
@@ -63,6 +66,7 @@
 				84AC7AD825C8504B006EA053 /* Assets.xcassets */,
 				84AC7ADA25C8504B006EA053 /* LaunchScreen.storyboard */,
 				84AC7ADD25C8504B006EA053 /* Info.plist */,
+				84AC7AE525C86877006EA053 /* QuestionViewController.swift */,
 			);
 			path = "Quizz Assignment2";
 			sourceTree = "<group>";
@@ -139,6 +143,7 @@
 			files = (
 				84AC7AD425C85045006EA053 /* ViewController.swift in Sources */,
 				84AC7AD025C85045006EA053 /* AppDelegate.swift in Sources */,
+				84AC7AE625C86877006EA053 /* QuestionViewController.swift in Sources */,
 				84AC7AD225C85045006EA053 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
